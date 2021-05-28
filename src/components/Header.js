@@ -1,25 +1,19 @@
-import logo from "../images/LogRocket_logo.png";
-
 const Header = () => {
   const menu = [
     {
-      title: "customers",
-      path: "https://logrocket.com/customers/",
+      title: "About the project",
+      path: "#",
     },
     {
-      title: "pricing",
-      path: "https://logrocket.com/pricing/",
+      title: "Contact us",
+      path: "#",
     },
   ];
 
   return (
     <header>
       <div className="container header_content">
-        <div className="brand">
-          <a href="https://logrocket.com/" target="_blank" rel="noreferrer">
-            <img src={logo} alt="" />
-          </a>
-        </div>
+        <div className="brand">ReactIntl</div>
         <nav>
           <ul>
             {menu.map(({ title, path }) => (
