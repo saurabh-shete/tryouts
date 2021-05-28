@@ -5,7 +5,7 @@
 Head over to your terminal and switch to the directory you’d like to save your project. Then run this command to download the starter files:
 
 ```
-git clone https://github.com/Ibaslogic/i18_react_intl
+git clone https://github.com/Ibaslogic/i18n_react_intl_starter
 ```
 
 Once your project files have been bootstrapped, open with your favorite code editor. Make sure you are inside the project directory.
