@@ -18,9 +18,7 @@ const Header = () => {
           <ul>
             {menu.map(({ title, path }) => (
               <li key={title}>
-                <a target="_blank" rel="noreferrer" href={path}>
-                  {title}
-                </a>
+                <a href={path}>{title}</a>
               </li>
             ))}
           </ul>
